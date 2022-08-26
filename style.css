@@ -982,12 +982,12 @@ html {
 
     .navbar .nav-links ul li {
         display: block;
-        margin-top: 3rem;
-        margin-bottom: 3.3rem;
+        margin-top: 2.3rem;
+        margin-bottom: 2rem;
     }
 
     .navbar .nav-links ul li a {
-        font-size: 1.8rem;
+        font-size: 1.7rem;
     }
 
     .navbar .nav-links ul li .btn {
