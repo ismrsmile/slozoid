@@ -109,6 +109,21 @@ html {
     transition: .5s;
 }
 
+.navbar .nav-links ul li .btn {
+    background: linear-gradient(90.09deg, #910cc3 0%, #72009d 100%);
+    color: #fff;
+    border-radius: 5rem;
+    padding: 1.1rem 2.4rem;
+    border: 2px solid #910CC3;
+    display: none;
+}
+
+.navbar .nav-links ul li .btn:hover {
+    background: none;
+    color: #910CC3;
+    transition: .5s;
+}
+
 .home {
     width: 100%;
     height: auto;
@@ -837,6 +852,21 @@ html {
         font-size: 3rem;
         padding-left: 2rem;
         color: #424242;
+    }
+
+    .navbar .nav-links ul li {
+        display: block;
+        margin-top: 1.5rem;
+        margin-bottom: 2.3em;
+    }
+
+    .navbar .nav-links ul li a {
+        font-size: 1.5rem;
+    }
+
+    .navbar .nav-links ul li .btn {
+        display: inline-block;
+        padding: 1.5rem 4rem;
     }
 
     .home {
