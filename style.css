@@ -576,6 +576,112 @@ html {
     transition: .5s;
 }
 
+.contact {
+    width: 100%;
+    height: auto;
+    background: linear-gradient(90deg, rgba(14,15,20,1) 0%, rgba(18,19,27,1) 35%, rgba(21,22,31,1) 100%);
+    padding: 3rem 0;
+}
+
+.contact .title {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.contact .title h1 {
+    margin: 0px 20px;
+    cursor: pointer;
+    font-size: 3.5rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    background: linear-gradient(90deg, rgba(170,17,227,1) 0%, rgba(141,18,187,1) 35%, rgba(164,34,213,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contact .title h1:hover {
+    margin: 0px 30px;
+    transition: .5s;
+
+}
+
+.contact .title div {
+    width: 47%;
+    height: 3px;
+    background: linear-gradient(90deg, rgba(170,17,227,1) 0%, rgba(141,18,187,1) 35%, rgba(164,34,213,1) 100%);
+}
+
+.contact .row {
+    width: 100%;
+    display: flex;
+}
+
+.contact .row .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 85%;
+    height: 160px;
+    margin: auto;
+    padding: 2rem 3rem;
+    border-radius: 1.8rem;
+    background: linear-gradient(90deg, rgba(17,20,28,1) 0%, rgba(22,25,36,1) 35%, rgba(24,29,41,1) 100%);
+    box-shadow: 0px 0px 25px -12px #910CC3;
+    text-align: center;
+}
+
+.contact .row .content .head {
+    font-size: 1.8rem;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+.contact .row .content .boxs {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 1.5rem;
+    font-size: 1.5rem;
+    color: #910CC3;
+}
+
+.contact .row .content .head h2 {
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.contact .row .content .head span {
+    color: #910CC3;
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.contact .row .content .boxs .box {
+    padding: 0 3rem;
+}
+
+.contact .row .content .boxs .box h2 {
+    font-size: 2.4rem;
+}
+
+.contact .row .content .boxs .box a {
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: rgb(205, 205, 205);
+}
+
+.contact .row .content .boxs .box a:hover {
+    color: #fff;
+    transition: .4s;
+}
+
+
 @media(max-width: 1234px) {
     .about-left .content .box img {
         width: 160px;
@@ -612,7 +718,7 @@ html {
         text-decoration: none;
         color: #fff;
         font-weight: 700;
-    }   
+    }
 }
 
 @media(max-width: 1078px) {
@@ -836,6 +942,26 @@ html {
         font-size: 15.5px;
     }
 
+    .contact .row .content {
+        height: 140px;
+    }
+
+    .contact .row .content .head h2 {
+        font-size: 1.8rem;
+    }
+
+    .contact .row .content .boxs .box h2 {
+        font-size: 1.6rem;
+    }
+
+    .contact .row .content .boxs .box {
+        padding: 0 1.3rem;
+    }
+
+    .contact .row .content .boxs .box a {
+        font-size: 1.3rem;
+    }
+
 }
 
 @media(max-width: 572px) {
@@ -976,6 +1102,32 @@ html {
         color: #fff;
         font-weight: 700;
     }
+
+    .contact .row .content {
+        width: 53%;
+        height: 370px;
+    }
+
+    .contact .row .content .boxs {
+        flex-direction: column;
+    }
+
+    .contact .row .content .head h2 {
+        font-size: 2.3rem;
+        margin-bottom: 1.3rem;
+    }
+
+    .contact .row .content .boxs .box {
+        margin-bottom: 3.5rem;
+    }
+
+    .contact .row .content .boxs .box h2 {
+        font-size: 2rem;
+    }
+
+    .contact .row .content .boxs .box a{
+        font-size: 1.6rem;
+    }
 }
 
 @media(max-width: 472px) {
@@ -1042,6 +1194,32 @@ html {
     }
     .about-left .content .box h3 {
         font-size: 1.7rem;
+    }
+
+    .contact .row .content {
+        width: 72%;
+        height: 370px;
+    }
+
+    .contact .row .content .boxs {
+        flex-direction: column;
+    }
+
+    .contact .row .content .head h2 {
+        font-size: 2.3rem;
+        margin-bottom: 1.3rem;
+    }
+
+    .contact .row .content .boxs .box {
+        margin-bottom: 3.5rem;
+    }
+
+    .contact .row .content .boxs .box h2 {
+        font-size: 2rem;
+    }
+
+    .contact .row .content .boxs .box a{
+        font-size: 1.6rem;
     }
 }
 
