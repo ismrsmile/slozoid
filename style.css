@@ -628,6 +628,7 @@ html {
     height: 160px;
     margin: auto;
     padding: 2rem 3rem;
+    margin-bottom: 2rem;
     border-radius: 1.8rem;
     background: linear-gradient(90deg, rgba(17,20,28,1) 0%, rgba(22,25,36,1) 35%, rgba(24,29,41,1) 100%);
     box-shadow: 0px 0px 25px -12px #910CC3;
@@ -678,6 +679,49 @@ html {
 
 .contact .row .content .boxs .box a:hover {
     color: #fff;
+    transition: .4s;
+}
+
+.footer {
+    width: 100%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+    background: #151A23;
+    box-shadow: 0px -1px 5px 2px rgba(145,12,195,0.98);
+}
+
+.footer .text a {
+    font-size: 1.6rem;
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(210, 210, 210);
+    opacity: 0.9;
+}
+
+.footer .text a span {
+    font-weight: 400;
+    color: rgb(200, 200, 200);
+    font-size: 1.5rem;
+}
+
+.footer .text a:hover {
+    opacity: 1;
+    transition: .4s;
+}
+
+.footer .icons i {
+    font-size: 2rem;
+    padding-left: 1.3rem;
+    color: rgb(210, 210, 210);
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.footer .icons i:hover {
+    opacity: 1;
     transition: .4s;
 }
 
@@ -798,6 +842,14 @@ html {
         text-decoration: none;
         color: #fff;
         font-weight: 700;
+    }
+
+    .footer .text a {
+        font-size: 1.5rem;
+    }
+
+    .footer .text a span {
+        font-size: 1.4rem;
     }
 }
 
@@ -960,6 +1012,18 @@ html {
 
     .contact .row .content .boxs .box a {
         font-size: 1.3rem;
+    }
+
+    .footer .text a {
+        font-size: 1.3rem;
+    }
+
+    .footer .text a span {
+        font-size: 1.2rem;
+    }
+
+    .footer .icons i {
+        font-size: 1.7rem;
     }
 
 }
@@ -1128,6 +1192,18 @@ html {
     .contact .row .content .boxs .box a{
         font-size: 1.6rem;
     }
+
+    .footer .text a {
+        font-size: 1.2rem;
+    }
+
+    .footer .text a span {
+        font-size: 1rem;
+    }
+
+    .footer .icons i {
+        font-size: 1.4rem;
+    }
 }
 
 @media(max-width: 472px) {
@@ -1219,6 +1295,25 @@ html {
     }
 
     .contact .row .content .boxs .box a{
+        font-size: 1.6rem;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        padding: 0.8rem;
+        height: 60px;
+    }
+
+    .footer .text a {
+        font-size: 1.5rem;
+    }
+
+    .footer .text a span {
+        font-size: 1.4rem;
+    }
+
+    .footer .icons i {
         font-size: 1.6rem;
     }
 }
