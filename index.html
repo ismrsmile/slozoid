@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Slozoid</title>
+	<link rel="stylesheet" href="./style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+	<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+	<script>
+		$(document).ready(function(){
+      		$('.fa-bars-staggered').click(function(){
+      			$('.nav-links').toggleClass('show');
+      			$('.fa-bars-staggered').toggleClass('fa-times');
+      		});
+		});
+	</script>
+</head>
+<body>
+	<header class="header">
+		<nav class="navbar">
+			<div class="logo">
+				<img src="./Medias/logo-white.png">
+			</div>
+			<div class="nav-links">
+				<ul>
+					<li><a href="#">Ana Sayfa</a></li>
+					<li><a href="#">Hakkımızda</a></li>
+					<li><a href="#">Hizmetler</a></li>
+					<li><a href="#">Projeler</a></li>
+					<li><a href="#">İletişim</a></li>
+					<a class="main-btn res-btn" href="#">Teklif Al</a>
+				</ul>				
+			</div>
+			<a class="main-btn" href="#">Teklif Al</a>
+			<i class="fa-solid fa-bars-staggered"></i>
+		</nav>
+
+		<div class="text-box">
+			<h4>Modern & Responsive</h4>
+			<h2>Slozoid Web Tasarım'la</h2>
+			<h3>"Sitenize bir gülümseme katın!"</h3>
+			<a class="main-btn" href="#">Keşfet</a>
+		</div>
+	</header>
+
+	<section class="information">
+		<h2>Slozoid Web Tasarım</h2>
+		<div class="line"></div>
+		<h4>Başlıca Hizmetlerimiz</h4>
+		<div class="row">
+			<div class="info-col">
+				<div class="text-content">
+					<h3>Web Tasarım</h3>
+				    <p>Sizlere modern,yenilikçi responsive özelliğine sahip web siteler tasarlıyoruz.</p>
+				    <a class="btn" href="#">Bilgi Al</a>
+				</div>
+				<img src="./Medias/design.jpg">
+			</div>
+			<div class="info-col info-col-2">
+				<div class="text-content">
+					<h3>Web Yazılım</h3>
+					<p>Sitenizin arkaplanında çalışacak işlevli site yazılımlarını yapıp kodluyoruz.</p>
+					<a class="btn" href="#">Bilgi Al</a>
+				</div>
+				<img src="./Medias/banner2.png">
+			</div>
+		</div>
+	</section>
+
+</body>
+</html>
