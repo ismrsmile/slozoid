@@ -198,7 +198,7 @@ html {
 }
 
 .information .info-col .text-content p {
-	font-size: 1.5rem;
+	font-size: 1.7rem;
 	font-weight: 500;
 	margin-bottom: 25px;
 }
@@ -289,7 +289,7 @@ html {
 }
 
 .deneme1 .row .left-content h3 {
-	font-size: 3rem;
+	font-size: 2.7rem;
 	color: #641bc3;
 	font-weight: 900;
 	margin-bottom: 10px;
@@ -304,7 +304,7 @@ html {
 }
 
 .deneme1 .row .left-content p {
-	font-size: 2.2rem;
+	font-size: 1.8rem;
 	font-weight: 500;
 	color: #101010;
 }
@@ -318,6 +318,103 @@ html {
 	width: 375px;
 	padding: 0 25px;
 }
+
+.footer {
+	width: 100%;
+	margin-top: 30px;
+	padding: 2% 2%;
+	background: linear-gradient(90deg, rgba(15,10,32,1) 0%, rgba(10,7,24,1) 35%, rgba(8,6,18,1) 100%);
+}
+
+.footer .row {
+	max-width: 1213px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: auto;
+}
+
+.footer .row .logo {
+	margin-bottom: 10px;
+}
+
+.footer .row .logo img {
+	width: 155px;
+	cursor: pointer;
+}
+
+.footer .row .footer-left a {
+	font-size: 1.5rem;
+	font-weight: 600;
+	color: #fff;
+	padding-right: 10px;
+	transition: .5s;
+}
+
+.footer .row .footer-left a:hover {
+	color: #641bc3;
+}
+
+.footer .row .footer-left p {
+	font-size: 1.4rem;
+	margin-top: 15px;
+	font-weight: 500;
+	color: #727276;
+	animation: blink 2.5s linear infinite;
+}
+
+@keyframes blink{
+	50% {
+		color: #641bc3;
+	}
+}
+
+.footer .row .footer-center .item {
+	display: flex;
+	padding: 1.3rem;
+}
+
+.footer .row .footer-center .item p::after {
+	content: '';
+	width: 0%;
+	height: 2px;
+	background: #641bc3;
+	display: block;
+	transition: .5s;
+}
+
+.footer .row .footer-center .item p:hover::after {
+	width: 100%;
+}
+
+.footer .row .footer-center .item i {
+	font-size: 2.3rem;
+	padding-right: 10px;
+	color: #641bc3;
+}
+
+.footer .row .footer-center .location i {
+	padding-right: 17px;
+}
+
+.footer .row .footer-center .item p {
+	color: rgb(218, 215, 220);
+	font-size: 1.5rem;
+	font-weight: 500;
+}
+
+.footer .row .footer-right h4{
+	font-size: 2rem;
+	margin-bottom: 1rem;
+	color: #641bc3;
+}
+
+.footer .row .footer-right p {
+	color: #fff;
+	font-size: 1.3rem;
+	font-weight: 500;
+}
+
 
 @media(max-width: 1000px) {
 	html {
@@ -364,6 +461,15 @@ html {
 	.information .info-col img {
 		width: 165px;
 		padding: 5%;
+	}
+	.footer .row {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		max-width: 300px;
+		margin: auto;
+		text-align: center;
+		padding: 1rem;
 	}
 }
 
