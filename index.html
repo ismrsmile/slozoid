@@ -1,0 +1,161 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Slozoid</title>
+	<link rel="stylesheet" href="./style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+	<link rel="icon" href="./Medias/icon.png">
+	<meta name="keywords" content="Web Tasarım, Web Yazılım, Slozoid Web Tasarım">
+	<meta name="description" content="Slozoid Web Tasarım ve Web Yazılım">
+	<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+	<script>
+		$(document).ready(function(){
+      		$('.fa-bars-staggered').click(function(){
+      			$('.nav-links').toggleClass('show');
+      			$('.fa-bars-staggered').toggleClass('fa-times');
+      		});
+		});
+	</script>
+</head>
+<body>
+
+	<div id="preloader"></div>
+
+	<header class="header">
+		<nav class="navbar">
+			<div class="logo">
+				<img src="./Medias/logo-white.png" alt="logo">
+			</div>
+			<div class="nav-links">
+				<ul>
+					<li><a href="#">Ana Sayfa</a></li>
+					<li><a href="#">Hakkımızda</a></li>
+					<li><a href="#">Hizmetler</a></li>
+					<li><a href="#">Projeler</a></li>
+					<li><a href="#">İletişim</a></li>
+					<a class="main-btn res-btn" href="#">Teklif Al</a>
+				</ul>				
+			</div>
+			<a class="main-btn" href="#">Teklif Al</a>
+			<i class="fa-solid fa-bars-staggered"></i>
+		</nav>
+
+		<div class="text-box">
+			<h4>Modern & Responsive</h4>
+			<h2>Slozoid Web Tasarım'la</h2>
+			<h3>"Sitenize bir gülümseme katın!"</h3>
+			<a class="main-btn" href="#">Keşfet</a>
+		</div>
+	</header>
+
+	<section class="services">
+		<h2>Slozoid Web Tasarım</h2>
+		<div class="line"></div>
+		<h4>Başlıca Hizmetlerimiz</h4>
+		<div class="row">
+			<div class="info-col">
+				<div class="text-content">
+					<h3>Web Tasarım</h3>
+				    <p>Sizlere modern, yenilikçi responsive özelliğine sahip web siteler tasarlıyoruz.</p>
+				    <a class="btn" href="#">Bilgi Al</a>
+				</div>
+				<img src="./Medias/design.png" alt="Tasarım Resmi">
+			</div>
+			<div class="info-col info-col-2">
+				<div class="text-content">
+					<h3>Web Yazılım</h3>
+					<p>Sitenizin arkaplanında çalışacak işlevli site yazılımlarını yapıp kodluyoruz.</p>
+					<a class="btn" href="#">Bilgi Al</a>
+				</div>
+				<img src="./Medias/software.png" alt="Yazılım Resmi">
+			</div>
+		</div>
+		<div class="row row-2">
+			<div class="info-col">
+				<div class="text-content">
+					<h3>Seo Hizmetleri</h3>
+				    <p>Arama motorlarında sitenizi en üstte göstericek ayarlamaları yapıyoruz.</p>
+				    <a class="btn" href="#">Bilgi Al</a>
+				</div>
+				<img src="./Medias/seo.png" alt="Seo Resmi">
+			</div>
+		</div>
+	</section>
+
+	<section class="information">
+		<div class="row">
+			<div class="left-content">
+				<h3>Tasarımın Mobil Uyumlu Olmasına <br> Dikkat Ediyoruz!</h3>
+				<div class="line"></div>
+				<p>Siteniz masaüstünde ne kadar güzel dursa da acaba mobil cihazlarda da o şekilde gözüküyormu? Site tasarımı yapılırken en önemli özellik olan <span>responsive özelliği</span> sitenizin her cihazlarda çalışmasına yönelik bir özelliktir. Biz de bunu dikkate alıp <span>mobil uyumlu, responsive</span> özelliğine sahip siteler tasarlayıp sizlere teslim ediyoruz.</p>
+			</div>
+			<div class="right-content">
+				<img src="./Medias/devices.png" alt="Cihaz Resimleri">
+			</div>
+		</div>
+		<div class="row row-2">
+			<div class="left-content">
+				<h3>Sizlerin İsteği Doğrultusunda Hareket Ediyoruz ve Fikirlerinizi Önemsiyoruz</h3>
+				<div class="line"></div>
+				<p>Projelerimize başlamadan önce sizden oluşturacağımız site hakkında bazı bilgiler alıyoruz. İstediğiniz <span>renk teması, şema,</span> eğer elinizde bulunuyorsa sizin hakkınızda bazı materyaller. Yapım aşamasındayken bunları size <span>bildiriyoruz ve görüşlerinizi</span> alıyoruz. Aldığımız görüşler sonucunda sitenizi istediğiniz tarzda düzeltip sizlere teslim ediyoruz.
+				</p>
+			</div>
+			<div class="right-content">
+				<img src="./Medias/picture.png" alt="Tasarım Resmi">
+			</div>
+		</div>
+	</section>
+
+	<section class="banner">
+		<div class="text-box">
+			<h3>Yenilenilen ve gelişen dünyada sizde yerinizi alın!</h3>
+			<a class="btn" href="">İletişime Geç</a>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<div class="row">
+			<div class="footer-left">
+			<div class="logo">
+				<img src="./Medias/logo-white.png" alt="Logo">
+			</div>
+				<a href="./contact.html">Hakkımızda</a>
+				<a href="./services.html">Hizmetler</a>
+				<a href="./about.html">Projeler</a>
+				<a href="./about.html">İletişim</a>
+				<p>Slozoid Web Tasarım © 2022 Tüm Hakları Saklıdır</p>
+		</div>
+		<div class="footer-center">
+			<div class="item location">
+				<i class="fa-solid fa-location-dot"></i>
+				<p>Türkiye/İstanbul</p>
+			</div>
+			<div class="item phone">
+				<i class="fa-solid fa-phone"></i>
+				<p>+90 534 653 20 50</p>
+			</div>
+			<div class="item email">
+				<i class="fa-solid fa-envelope"></i>
+				<p>slozoid@gmail.com</p>
+			</div>
+		</div>
+		<div class="footer-right">
+			<h4>Firmamız Hakkında</h4>
+			<p>
+				Teknolojiye meraklılar olarak, gelişen dünyada Slozoid markalı<br> kuruluşumuzun yükselişini ve zirveye oturmasını görmek<br> için bu atılımı yaptık. Kuruluş amacımız müşterilerimize en <br> yüksek hizmeti sağlamak ve onlara özel kullanışlı, responsive <br>özelliğine sahip olan her yerde kullanabilecekleri <br> bir web site sağlamaktır.
+			</p>
+		</div>
+		</div>
+	</footer>
+
+	<script>
+		var loader = document.getElementById("preloader")
+
+		window.addEventListener("load", function(){
+			setTimeout(function(){loader.style.display = 'none'},2500);
+		})
+	</script>
+</body>
+</html>
